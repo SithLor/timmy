@@ -1,12 +1,42 @@
-//#region Imports
+# Explane
+How to use it 
+
+```ts
+import Color from "./Color";
+const color = new Color(255, 255, 255, 1);
+```
+```Getter
+console.log(color.ReturnRGBA_Array());
+console.log(color.ReturnRGB_Array());
+console.log(color.ReturnRedValue());
+console.log(color.ReturnGreenValue());
+console.log(color.ReturnBlueValue());
+console.log(color.ReturnAlphaValue());
+```
+
+Setters
+```ts
+color.SetRGBAValues(255, 255, 255, 1);
+color.SetRGBValues(255, 255, 255);
+color.SetRedValue(255);
+color.SetGreenValue(255);
+color.SetBlueValue(255);
+color.SetAlphaValue(1);
+```
+
+# INFO
+imports
+```ts
 import RGB from "../types/Color/RGB";
 import RGBA from "../types/Color/RGBA";
 import Alpha from "../types/Color/alpla";
 import Blue from "../types/Color/blue";
 import Green from "../types/Color/green";
 import Red from "../types/Color/red";
-//#endregion
-export default class Color {
+```
+Code
+```ts
+class Color {
   //#region Private Variables
   private rgba: RGBA 
   private rgb: RGB;
@@ -85,4 +115,8 @@ export default class Color {
   }
 //#endregion
 }
-
+```
+exports
+```ts
+export default Color;
+```
