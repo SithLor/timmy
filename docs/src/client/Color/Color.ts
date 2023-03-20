@@ -1,13 +1,20 @@
 //#region Imports
+import { CF_IDENFIER } from "../id";
 import RGB from "../types/Color/RGB";
 import RGBA from "../types/Color/RGBA";
-import Alpha from "../types/Color/alpla";
+import Alpha from "../types/Color/alpha";
 import Blue from "../types/Color/blue";
 import Green from "../types/Color/green";
 import Red from "../types/Color/red";
 //#endregion
+
+
 export default class Color {
   //#region Private Variables
+
+  //<summary> The color identifier </summary>
+  private CF_id:CF_IDENFIER.color = CF_IDENFIER.color;
+
   private rgba: RGBA 
   private rgb: RGB;
   private r: Red;
@@ -83,6 +90,5 @@ export default class Color {
   ReturnAlphaValue(): Alpha {
     return this.a;
   }
-//#endregion
 }
 

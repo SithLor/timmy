@@ -5,7 +5,8 @@ How to use it
 import Color from "./Color";
 const color = new Color(255, 255, 255, 1);
 ```
-```Getter
+Getter
+```ts
 console.log(color.ReturnRGBA_Array());
 console.log(color.ReturnRGB_Array());
 console.log(color.ReturnRedValue());
