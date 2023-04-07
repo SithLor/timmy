@@ -1,16 +1,5 @@
-import 'package:linux_util/linux_util.dart';
-import 'package:test/test.dart';
+import 'package:UI_UTIL/src/jsLib.dart' as jsLib;
 
 void main() {
-  group('A group of tests', () {
-    final awesome = Awesome();
-
-    setUp(() {
-      // Additional setup goes here.
-    });
-
-    test('First Test', () {
-      expect(awesome.isAwesome, isTrue);
-    });
-  });
+  jsLib.alert('Hello World');
 }
