@@ -1,8 +1,8 @@
 /// Support for doing something awesome.
 ///
 /// More dartdocs go here.
-library kde;
+library linux_util;
 
-export 'src/kde_base.dart';
-export 'src/util.dart';
+export '../src/linux_util_base.dart';
+
 // TODO: Export any libraries intended for clients of this package.
