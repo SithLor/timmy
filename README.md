@@ -1,3 +1,6 @@
+https://develop.kde.org/docs/
+https://chat.openai.com/chat
+https://dart.dev/language/mixins
 <!-- 
 This README describes the package. If you publish this package to pub.dev,
 this README's contents appear on the landing page for your package.
